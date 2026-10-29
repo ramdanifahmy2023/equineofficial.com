@@ -1,0 +1,8 @@
+<script setup lang="ts">
+definePageMeta({ layout: 'admin', middleware: 'admin-auth' })
+const { data: session } = await useFetch<any>('/api/admin/auth/session')
+const { data: cases, refresh } = await useFetch<any[]>('/api/admin/returns')
+const message = ref('')
+const update = async (item: any, status: string) => { try { await $fetch(`/api/admin/returns/${item.id}`, { method: 'PATCH', body: { status, inspectionResult: status === 'received' ? prompt('Hasil inspeksi') || '' : undefined } }); await refresh() } catch (error: any) { message.value = error?.data?.statusMessage || 'Update gagal.' } }
+</script>
+<template><div class="admin-page"><div class="admin-page-heading"><div><p class="eyebrow">Customer care</p><h1>Retur & tukar.</h1></div></div><p v-if="message" class="checkout-error">{{ message }}</p><section class="admin-panel"><table class="admin-table"><thead><tr><th>Order</th><th>Jenis</th><th>Alasan</th><th>Status</th><th>Aksi</th></tr></thead><tbody><tr v-for="item in cases" :key="item.id"><td>{{ item.orderNumber }}</td><td>{{ item.type }}</td><td>{{ item.reason }}</td><td>{{ item.status }}</td><td><button v-if="item.status === 'requested'" class="admin-row-action" @click="update(item, 'approved')">Setujui</button><button v-if="item.status === 'approved'" class="admin-row-action" @click="update(item, 'received')">Terima & inspeksi</button><button v-if="item.status === 'received'" class="admin-row-action" @click="update(item, 'completed')">Selesaikan</button><button v-if="item.status === 'requested'" class="admin-row-action is-danger" @click="update(item, 'rejected')">Tolak</button></td></tr></tbody></table><p v-if="!cases?.length">Belum ada pengajuan retur.</p></section></div></template>

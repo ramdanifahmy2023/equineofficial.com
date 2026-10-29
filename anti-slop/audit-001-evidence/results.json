@@ -1,0 +1,264 @@
+{
+  "routes": [
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/products",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/products/carpenter-king-marsoto",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/wishlist",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/checkout",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/payment/EQ-audit",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/size-guide",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/shipping",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/returns",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/admin",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/admin/products",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/admin/orders",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "route": "/admin/settings",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/products",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/products/carpenter-king-marsoto",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/wishlist",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/checkout",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/payment/EQ-audit",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/size-guide",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/shipping",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/returns",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/admin",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/admin/products",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/admin/orders",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "route": "/admin/settings",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "errors": [],
+  "homeWishlist": {
+    "position": "static",
+    "clickable": false,
+    "click": "blocked"
+  },
+  "quickBuy": [
+    {
+      "slug": "carpenter-king-marsoto",
+      "name": "Carpenter Pants King Marsoto",
+      "price": 257500,
+      "color": "Hitam",
+      "size": "28",
+      "quantity": 1
+    }
+  ],
+  "drawerFocus": {
+    "active": "<button class=\"buy-link\">Buy</button>",
+    "inside": false
+  },
+  "drawerTab": {
+    "active": "<a href=\"/products/cargo-pants-premium\" class=\"media-link\" aria-label=\"Lihat Cargo Pants Premium\"></a>",
+    "inside": false
+  },
+  "paymentBefore": {
+    "url": "http://127.0.0.1:3020/payment/EQ-66015946?method=bri_va",
+    "summary": "Order\nEQ-66015946\nCarpenter Pants King Marsoto\nHitam / 28 × 1\nRp 257.500\nSubtotal\nRp 257.500\nPengiriman J&T EZ\nRp 20.000\nTotal\nRp 277.500\n\nStatus akan diverifikasi otomatis.",
+    "method": "Metode pembayaran\nBRI Virtual Account"
+  },
+  "paymentReload": {
+    "summary": "Order\nEQ-66015946\nCarpenter Pants King Marsoto\nHitam / 28 × 1\nRp 257.500\nSubtotal\nRp 257.500\nPengiriman JNE REG\nRp 18.000\nTotal\nRp 275.500\n\nStatus akan diverifikasi otomatis.",
+    "method": "Metode pembayaran\nQRIS"
+  },
+  "paymentSuccess": {
+    "heading": "Pembayaran berhasil.",
+    "summary": "Order\nEQ-66015946\nSubtotal\nRp 0\nPengiriman JNE REG\nRp 18.000\nTotal\nRp 18.000\n\nStatus akan diverifikasi otomatis.",
+    "cart": "[]"
+  },
+  "successReload": {
+    "heading": "Selesaikan pembayaran.",
+    "summary": "Order\nEQ-66015946\nSubtotal\nRp 0\nPengiriman JNE REG\nRp 18.000\nTotal\nRp 18.000\n\nStatus akan diverifikasi otomatis."
+  },
+  "settingsSave": "Perubahan tersimpan di preview.",
+  "settingsAfterNavigation": "Equine Official",
+  "defaultSort": [
+    "Carpenter Pants King Marsoto",
+    "Cargo Pants Premium",
+    "Cargo Pants Kerja Lapangan",
+    "Cargo Army Ripstop",
+    "Cargo Camo Loreng Army",
+    "Cargo Long Pants Black",
+    "Carpenter Pants Celana Kerja",
+    "Carpenter Pants Semi Baggy"
+  ],
+  "newestSort": [
+    "Carpenter Pants King Marsoto",
+    "Cargo Pants Premium",
+    "Cargo Pants Kerja Lapangan",
+    "Cargo Army Ripstop",
+    "Cargo Camo Loreng Army",
+    "Cargo Long Pants Black",
+    "Carpenter Pants Celana Kerja",
+    "Carpenter Pants Semi Baggy"
+  ],
+  "colors": [
+    {
+      "text": "Rp 257.500",
+      "color": "rgb(177, 138, 17)",
+      "background": "rgb(250, 249, 246)",
+      "font": "13px"
+    },
+    {
+      "text": "Buy",
+      "color": "rgb(192, 154, 28)",
+      "background": "rgb(250, 249, 246)",
+      "font": "13px"
+    }
+  ]
+}

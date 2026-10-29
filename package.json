@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@lucide/vue": "^1.40.0",
+    "drizzle-orm": "^0.45.2",
+    "nuxt": "^3.21.11",
+    "postgres": "^3.4.9"
+  },
+  "scripts": {
+    "dev": "nuxt dev --host 127.0.0.1 --port 3020",
+    "build": "nuxt build",
+    "preview": "nuxt preview --host 127.0.0.1 --port 3020",
+    "typecheck": "nuxt typecheck",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx server/db/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.11"
+  }
+}

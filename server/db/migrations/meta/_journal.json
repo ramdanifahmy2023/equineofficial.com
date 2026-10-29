@@ -1,0 +1,112 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788625900026,
+      "tag": "0000_sturdy_ben_urich",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788659814320,
+      "tag": "0001_natural_wasp",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788661415650,
+      "tag": "0002_wide_inertia",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788677543306,
+      "tag": "0003_first_gabe_jones",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788677844280,
+      "tag": "0004_confused_tana_nile",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788693022117,
+      "tag": "0005_productive_marvel_boy",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788705063854,
+      "tag": "0006_groovy_wallflower",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788705371545,
+      "tag": "0007_flashy_falcon",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788733080841,
+      "tag": "0008_lucky_the_order",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788734405011,
+      "tag": "0009_redundant_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788735412883,
+      "tag": "0010_tiny_expediter",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788788962077,
+      "tag": "0011_lean_valeria_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788793100374,
+      "tag": "0012_damp_firelord",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788793100375,
+      "tag": "0013_cod_shipment",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1789136400000,
+      "tag": "0014_add_cost_columns",
+      "breakpoints": true
+    }
+
+  ]
+}
